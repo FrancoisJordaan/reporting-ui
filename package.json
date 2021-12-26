@@ -1,0 +1,37 @@
+{
+  "name": "reporting-ui",
+  "version": "1.0.0",
+  "description": "UI for generating reports.",
+  "type":"module",
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancoisJordaan/reporting-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancoisJordaan/reporting-ui/issues"
+  },
+  "homepage": "https://github.com/FrancoisJordaan/reporting-ui#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.16.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "node-fetch": "^3.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
